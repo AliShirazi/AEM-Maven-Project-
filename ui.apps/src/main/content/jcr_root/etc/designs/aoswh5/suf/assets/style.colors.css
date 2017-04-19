@@ -1,0 +1,83 @@
+/* COLORS */
+#header {
+  background-color: #fc6719;
+}
+h1 {
+  border-bottom-color: #005093;
+  color: #005093;
+}
+h2 {
+  color: #005093;
+}
+#back {
+  color: #ffffff;
+}
+#back:before {
+  border-right-color: #ffffff;
+}
+#back:hover {
+  color: #033c8e;
+}
+#back:hover:before {
+  border-right-color: #033c8e;
+}
+ol li {
+  background-color: #269fd7;
+}
+ol li p {
+  color: #000000;
+}
+ol li:before {
+  border-color: #008fce;
+}
+ol li.checked {
+  background-color: #005093;
+}
+ul li {
+  background-color: #005093;
+  color: #ffffff;
+  border-bottom-color: #033c8e;
+}
+ul li:after {
+  background-color: #269fd7;
+}
+ul li:before {
+  border-left-color: #005093;
+}
+ul li:hover {
+  background-color: #033c8e;
+}
+ul li:hover:before {
+  border-left-color: #033c8e;
+}
+.home_content a {
+  color: #005093;
+}
+.home_content a:hover {
+  color: #033c8e;
+}
+.home_panel_bottom {
+  background-color: #005093;
+  border-color: #269fd7;
+}
+.level_two_panel {
+  background-color: #269fd7;
+  border-color: #005093;
+}
+.level_two li {
+  background-color: #269fd7;
+  color: #ffffff;
+  border-bottom-color: #008fce;
+}
+.level_two li:hover {
+  background-color: #008fce;
+}
+.level_two li:hover:before {
+  border-left-color: #008fce;
+}
+.level_two li:after {
+  background-color: #005093;
+}
+.level_two li:before {
+  border-left-color: #269fd7;
+}

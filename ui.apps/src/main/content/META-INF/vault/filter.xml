@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/aoswh5">
+        <exclude pattern="/apps/aoswh5/install" />
+    </filter>
+    <filter root="/apps/sling" />
+    <filter root="/etc/clientlibs/aoswh5"/>
+    <filter root="/etc/designs/aoswh5"/>
+</workspaceFilter>

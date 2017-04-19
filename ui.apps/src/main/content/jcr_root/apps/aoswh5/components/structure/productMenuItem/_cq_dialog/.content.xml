@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root 
+    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    jcr:title ="Product Menu Item">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            
+        <title
+            
+            jcr:primaryType="nt:unstructured"
+            
+            jcr:title="Text"
+            
+            sling:resourceType="granite/ui/components/foundation/form/textfield"
+            
+            name="./menuitemtitle"
+            
+            fieldLabel="Title"/><link
+            
+            jcr:primaryType="nt:unstructured"
+            
+            jcr:title="Page"
+            
+            sling:resourceType="granite/ui/components/foundation/form/textfield"
+            
+            name="./pagelink"
+            
+            fieldLabel="Page"/></items>
+    </content>
+</jcr:root>

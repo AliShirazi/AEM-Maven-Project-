@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root 
+    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="panel"
+    title="Product Menu Item">
+    <items jcr:primaryType="cq:WidgetCollection">
+    <title jcr:primaryType="cq:Widget"
+            fieldDescription="ex\: Features"
+            fieldLabel="Menu Item Title"
+            name="./menuitemtitle"
+            xtype="textfield"/>
+    <link jcr:primaryType="cq:Widget"
+		  fieldLabel="Page"
+		  name="./pagelink"
+		  xtype="textfield"/>
+   	</items>
+</jcr:root>

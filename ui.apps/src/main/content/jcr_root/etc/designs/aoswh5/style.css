@@ -1,0 +1,73 @@
+html { font-size: 62.5%; width: 100%; margin: 0; padding: 0; min-height: 100%; height: 100%; color: #000; }
+body { position: relative; font-size: 20px; font-size: 2rem; padding: 0; font-family: 'lato', sans-serif; font-weight: 300; width: 100%; margin: 0 auto; max-width: 1024px; background-color: #EEE; min-height: 100%; }
+
+h1 { display: block; text-align: center; padding: 2% 0 2%; height: 8%; margin: 0; font-weight: 300; font-size: inherit;  }
+a { display: block; box-shadow: 0 0 5px #000; text-decoration: none; color: #FFF; display: block; }
+a:before, a:after { content: ''; position: absolute; background-repeat: no-repeat; }
+a:before { background-color: #FFF; background-position: center center; background-size: contain; }
+a:after { font-size: 30px; font-size: 3rem; }
+a:nth-of-type(1) { background-color: #007833; }
+a:nth-of-type(2) { background-color: #FF661B; }
+a:nth-of-type(3) { background-color: #003CA6; }
+a.productsplash.cyclone{ background-color: #007833; }
+a.productsplash.ultraforce { background-color: #FF661B; }
+a.productsplash.hcg{ background-color: #003CA6; }
+a:nth-of-type(1):before { background-image: url(bth/assets/cyclone@2x.jpg); }
+a:nth-of-type(2):before { background-image: url(suf/assets/ultra_force@2x.jpg); }
+a:nth-of-type(3):before { background-image: url(hcg/assets/commerical@2x.jpg); }
+a:nth-of-type(1):after { background-image: url(bth/assets/aos_white@2x.png); }
+a:nth-of-type(2):after { background-image: url(suf/assets/state@2x.png); }
+a:nth-of-type(3):after { background-image: url(hcg/assets/awh_white@2x.png); }
+a.productsplash.cyclone:before { background-image: url(bth/assets/cyclone@2x.jpg); }
+a.productsplash.ultraforce:before { background-image: url(suf/assets/ultra_force@2x.jpg);}
+a.productsplash.hcg:before { background-image: url(hcg/assets/commerical@2x.jpg); }
+a.productsplash.cyclone:after { background-image: url(bth/assets/aos_white@2x.png); }
+a.productsplash.ultraforce:after { background-image: url(suf/assets/state@2x.png); }
+a.productsplash.hcg:after { background-image: url(hcg/assets/awh_white@2x.png); }
+span { display: block; position: absolute; text-align: center;}
+
+@media screen and (orientation:portrait){
+    a { padding: 0; width: 90%; position: absolute; height: 25%; margin: 0 5%; }
+    span { right: 10px; left: 40%; top: 55%; }
+    a:before { top: 10px; left: 10px; bottom: 10px; width: 33%; }
+    a:after { top: 20%; bottom: 10px; right: 10px; left: 40%;  background-position: center top; background-size: 50%; }
+    a:nth-of-type(1) { top: 10%; }
+    a:nth-of-type(2) { top: 40%; }
+    a:nth-of-type(3) { top: 70%; }
+}
+
+@media screen and (orientation:landscape){
+    a { float: left; padding: 30% 0 0; position: absolute; width: 30%; bottom: 10%; top: 15%; }
+    span { top: 85%;  width: 100%;}
+    a:before { top: 20%; left: 5%; bottom: 20%; right: 5%; border-top: solid 10px #FFF; border-bottom: solid 10px #fff; }
+    a:after { top: 0; bottom: 80%; width: 100%; background-position: center center; background-size: 60%; }
+    a:nth-of-type(1) { left: 1.66%; }
+    a:nth-of-type(2) { left: 35%; }
+    a:nth-of-type(3) { left: 68%; }
+    a.productsplash:nth-of-type(1) { left: 10%; }
+    a.productsplash:nth-of-type(2) { left: auto; right: 10%; }
+}
+
+@media screen and (max-width:640px) and (orientation:portrait){
+    a:after { background-size: 70%;}
+}
+
+@media screen and (min-width:768px){
+    body { font-size: 35px; font-size: 3.2rem; }
+}
+
+/* TYPOGRAPHY */
+@font-face {
+    font-family: 'lato';
+    src: url('assets/lato-light.eot');
+    src: url('assets/lato-light.eot?#iefix') format('embedded-opentype'), url('assets/lato-light.woff') format('woff'), url('assets/lato-light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'lato';
+    src: url('assets/lato-bold.eot');
+    src: url('assets/lato-bold.eot?#iefix') format('embedded-opentype'), url('assets/lato-bold.woff') format('woff'), url('assets/lato-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
